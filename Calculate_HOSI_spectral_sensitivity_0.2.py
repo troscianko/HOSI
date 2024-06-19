@@ -3,7 +3,7 @@
 ##
 ## Written by: Jolyon Troscianko
 ## initial release: 19/06/2024
-## License: CC BY
+## License: GNU General Public License v3.0
 ##
 ## 
 ## 

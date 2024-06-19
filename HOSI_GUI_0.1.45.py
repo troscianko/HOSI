@@ -3,7 +3,7 @@
 ##
 ## Written by: Jolyon Troscianko
 ## initial release: 19/06/2024
-## License: CC BY
+## License: GNU General Public License v3.0
 ##
 ## This script creates a GUI for running a hyperspectral open source imager (HOSI) device
 ## designed to work on linux or Android operating systems. To use on Android, install

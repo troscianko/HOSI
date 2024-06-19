@@ -1,16 +1,26 @@
 /*
 
-_________________________HOSI calculate linearisation coefficients_____________________________
+_________________________HOSI Arduino Firmware_____________________________
 
  Written by: Jolyon Troscianko
  initial release: 19/06/2024
- License: CC BY
+ License: GNU General Public License v3.0
  
+ 
+ Manual control:
+ The HOSI can be controlled automatically by the HOSI_GUI Python software. however, the functions can
+ also be accessed manually via a serial port (check the baud, default 115200)
+ 
+ tilt: send "l" followed by a number e.g. "l100" or "l500" note that zero is straight down, do not use negative values
+ pan: send "p" followed by a number e.g. "p100" or "p-1000" note that zero is straight ahead
+ manual integration time: send "t" followed by microsecond number
+ radiance measurement: send "r" and it will take a radiance measurement
+ hyperspectral measurement: send "h" followed by comma-delineated values as follows:
+ panLeft,panRight,panResolution,tiltBottom,tiltTop,tiltResolution,maxIntegrationTime(microseconds),boxcar,darkRepeatTimer(milliseconds)
+ e.g.: "h-200,200,10,400,600,10,2000000,2,120000"
+  
  
  Modify the unit number below if desired, and upload this script to an Arduino Nano or similar.
- 
- 
- 
  
  
  */
@@ -79,7 +89,6 @@ void setup() {
 
   Serial.begin(115200); // Baud Rate set to 115200, 500000 seems to work well for nano with PC, 230400 and 256000 doesn't work for android. interestingly it still works ok with 57600
   while (! Serial); // Wait untilSerial is ready
-  //Serial.println("i = irradiance measure, r = radiance measure, n# = minimum number of scans");
   readSpectrometer();
   resetData();
   

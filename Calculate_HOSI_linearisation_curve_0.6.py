@@ -3,7 +3,7 @@
 ##
 ## Written by: Jolyon Troscianko
 ## initial release: 19/06/2024
-## License: CC BY
+## License: GNU General Public License v3.0
 ##
 ## To use this fucntion, point the HOSI so that it's facing a stably illuminated surface
 ## then just run the script. Ideally do this in a dark room. It is essential that the
