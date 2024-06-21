@@ -20,9 +20,11 @@ _Figure 3. Example hyperspectral scan of Falmouth (UK) docks at night. a): panor
 
 **Description of HOSI file output format** (each scan generates a .csv file and .png image):
 _First line:_
+
 'h' denotes start of raw data from HOSI, unit #, pan left limit, pan right limit, pan resolution steps-per-scan, tilt lower limit, tilt upper limit, tilt resolution (steps-per-scan), maximum integration time (microseconds), boxcar spectral pooling value, delay between dark measurement repeats (milliseconds)
 
 _Second line onwards:_
+
 pan location (steps), tilt location (steps), measurement type (0=dark measurement, 1=light measurement, 2=initialisation exposure), integration time (microseconds), number of wavelength bins reaching saturation point, spectral count data (288 comma-delineated measurements unless a boxcar>1 is used)
 
 'x' denotes end of raw data
