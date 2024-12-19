@@ -11,7 +11,7 @@ This system's adaptability, cost-effectiveness, and open-source nature position 
 ![wiring and 3D parts](https://github.com/user-attachments/assets/ab882e63-1e3f-4d0a-86f4-3d3041d43e42)
 _Figure 1. 3D parts and wiring. a) Photograph of a HOSI unit in the field, running from a smartphone. b): 3D assembly; c): parts arranged for 3D printing; d): wiring diagram and required wire lengths. GND (ground) is the shared negative voltage, VIN is the 5v output from the Arduino that is delivered via the USB cable. Note that the spectrometer should be connected to the Arduino’s regulated 5v output (as shown), not VIN that has a slightly lower voltage due to a protective diode in the Arduino._
 
-![image](https://github.com/troscianko/HOSI/assets/53558556/87a651ab-8789-4f20-8afc-353179778cec)
+![GUI2](https://github.com/user-attachments/assets/c5076b6d-f033-4f1a-8c4d-3980034ef8de)
 _Figure 2. Graphical user interface (GUI) layout, showing the available functions and a scan of butterflies. The spectrum shows a selection from a patch of wing that appears black to human vision, but has a UV peak visible to many other animals. This scene was illuminated by an Exo-Terra Sunray lamp._
 
 ![image](https://github.com/troscianko/HOSI/assets/53558556/f7853201-a29d-4b70-b86d-b44d9c76a2da)
