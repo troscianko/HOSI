@@ -8,7 +8,7 @@ The HOSI system can take panoramic hyperspectral images that meet the difficult 
 
 This system's adaptability, cost-effectiveness, and open-source nature position it as a valuable tool for researchers investigating the complex relationships between light, environment, behaviour, ecology, and biodiversity, with further potential uses in many other fields.
 
-![image](https://github.com/troscianko/HOSI/assets/53558556/4d4276ba-5631-4520-91a5-47eb7aa20279)
+![wiring and 3D parts](https://github.com/user-attachments/assets/ab882e63-1e3f-4d0a-86f4-3d3041d43e42)
 _Figure 1. 3D parts and wiring. a) Photograph of a HOSI unit in the field, running from a smartphone. b): 3D assembly; c): parts arranged for 3D printing; d): wiring diagram and required wire lengths. GND (ground) is the shared negative voltage, VIN is the 5v output from the Arduino that is delivered via the USB cable. Note that the spectrometer should be connected to the Arduino’s regulated 5v output (as shown), not VIN that has a slightly lower voltage due to a protective diode in the Arduino._
 
 ![image](https://github.com/troscianko/HOSI/assets/53558556/87a651ab-8789-4f20-8afc-353179778cec)
