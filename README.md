@@ -8,6 +8,15 @@ The HOSI system can take panoramic hyperspectral images that meet the difficult 
 
 This system's adaptability, cost-effectiveness, and open-source nature position it as a valuable tool for researchers investigating the complex relationships between light, environment, behaviour, ecology, and biodiversity, with further potential uses in many other fields.
 
+# Videos:
+[![Intro video](https://github.com/user-attachments/assets/0a3cd7e5-258d-4720-a24e-3324b846a49d)](https://www.youtube.com/watch?v=9q8lyUpntms)
+[![Assembly video](https://github.com/user-attachments/assets/ca37dcda-e9eb-469b-ac3a-0ac24e70e0eb)](https://www.youtube.com/watch?v=4VSr_2GacWA)
+[![Firmware video](https://github.com/user-attachments/assets/3cf3075b-0e30-4d9e-9b34-286348ca7b63)](https://www.youtube.com/watch?v=N6yWZMLm-1M)
+[![Calibration video](https://github.com/user-attachments/assets/2a70f210-30d2-4ed9-8e98-91d40c22afb3)](https://www.youtube.com/watch?v=MEW3B65dHIc)
+[![Imaging video](https://github.com/user-attachments/assets/7319651f-5b70-4fee-b1d5-4444d7388261)](https://www.youtube.com/watch?v=LO7XNOPuY0w)
+
+# Figures:
+
 ![wiring and 3D parts](https://github.com/user-attachments/assets/ab882e63-1e3f-4d0a-86f4-3d3041d43e42)
 _Figure 1. 3D parts and wiring. a) Photograph of a HOSI unit in the field, running from a smartphone. b): 3D assembly; c): parts arranged for 3D printing; d): wiring diagram and required wire lengths. GND (ground) is the shared negative voltage, VIN is the 5v output from the Arduino that is delivered via the USB cable. Note that the spectrometer should be connected to the Arduino’s regulated 5v output (as shown), not VIN that has a slightly lower voltage due to a protective diode in the Arduino._
 
